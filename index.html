@@ -5,13 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>UI-Basics Test</title>
-
-    <style>
-      /* default style for test */
-      li {
-        margin-bottom: 10px;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
@@ -32,28 +26,28 @@
 
       <!-- Images Section -->
       <section class="images">
-        <h3>Images Section</h3>
-        <div class="image">
-          <img height="200" src="images/ocean.png" alt="Ocean" />
-        </div>
-        <img height="200" src="images/mountain.jpg" alt="Mountain" />
-        <img height="200" src="images/surfer.jpg" alt="Surfer" />
+        <h3 class="h3-Heading">Images Section</h3>
+        <article class="images-article">
+          <div class="image">
+            <img height="200" src="images/ocean.png" alt="Ocean" />
+          </div>
+          <img height="200" src="images/mountain.jpg" alt="Mountain" />
+          <img height="200" src="images/surfer.jpg" alt="Surfer" />
+          <a target="_blank" href="https://caseytrees.org/trees-list/"
+            ><img src="./images/tree.jpg" alt="Tree"
+          /></a>
+        </article>
       </section>
 
       <!-- Link Section -->
       <section class="links">
-        <h3>Link Section</h3>
+        <h3 class="h3-Heading">Link Section</h3>
+        <a
+          href="https://openlibrary.org/works/OL15178362W/The_Photographer%27s_Eye"
+          target="_blank"
+          >My favorite Book!</a
+        >
       </section>
-
-      <!-- Footer -->
-      <footer>
-        <h3>Footer Links</h3>
-        <ul>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-        </ul>
-      </footer>
 
       <!-- Box Model Section -->
       <section class="box-model">
@@ -70,5 +64,14 @@
         <img height="200" src="images/valley.jpg" alt="Mountain Image" />
       </section>
     </main>
+    <!-- Footer -->
+    <footer>
+      <h3 class="h3-Heading">Footer Links</h3>
+      <ul>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+      </ul>
+    </footer>
   </body>
 </html>

@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* default style for test */
+li {
+  margin-bottom: 10px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+header {
+  background-color: cyan;
+  width: 100%;
+  position: fixed;
+}
+
+header h1 {
+  padding: 15px 0px;
+}
+
+main {
+  padding-top: 100px;
+}
+
+.list li:nth-of-type(2) {
+  color: blue;
+}
+
+.images-article {
+  display: flex;
+  /* display: block; */
+  gap: 5px;
+}
+
+.h3-Heading {
+  color: rgb(255, 165, 0);
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin: 30px 0px;
+}
+
+footer a:visited {
+  color: green;
+}
+
+footer a:hover {
+  color: red;
+}
+
+.box-model {
+  padding: 5px;
+  margin: 10%;
+}
+.box-model h3,
+p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.images-article a img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
